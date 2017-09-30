@@ -1,0 +1,31 @@
+{
+  "name": "portofolio",
+  "version": "1.0.0",
+  "description": "Rebeca Calvo Quintero's profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startDev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebecacalvoquintero/portofolio.git"
+  },
+  "author": "Rebeca Calvo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebecacalvoquintero/portofolio/issues"
+  },
+  "homepage": "https://github.com/rebecacalvoquintero/portofolio#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "istanbul": "^0.4.5",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
