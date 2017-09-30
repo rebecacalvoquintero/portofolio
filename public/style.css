@@ -176,3 +176,39 @@ h1 {
   -webkit-animation: typing 3s steps(21, end), blink-caret .5s step-end infinite alternate;
 
 }
+
+/*.home_container{
+  display: flex;
+  justify-content: center;
+}
+.heading-box{
+  /*background-color: #E8CCBF;
+  backface-visibility: 0.3;*/
+  /*margin: 6rem 6rem;
+  display: flex;*/
+
+/*}*/
+
+
+.error__div{
+  text-align: center;
+  color: white;
+  background-color: #34435E;
+}
+
+.error__div--statuscode{
+  font-size: 15rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.error__div--message{
+  font-size: 3rem;
+}
+
+.fa-home{
+  font-size: 8rem;
+  color: white;
+  margin-top: 10rem;
+  display: inline-block;
+}
